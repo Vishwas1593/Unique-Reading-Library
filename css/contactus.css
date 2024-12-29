@@ -1,0 +1,53 @@
+
+.contactus1{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.map{
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid rgb(32, 229, 32); */
+    background-color: rgb(231, 238, 16);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.map h3{
+    font-size: 24px;
+    padding: 20px;
+}
+
+iframe{
+    width: 500px;
+    height: 400px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    iframe{
+        display: block;
+        width: 50vw;
+        height: 40vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        padding: 15px 0;  /* Less padding for smaller screens */
+    }
+    .map{
+        display: block;
+        width: auto;
+        margin: 5px;
+    }
+}
+
+

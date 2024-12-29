@@ -1,0 +1,278 @@
+/* Link to Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background for body */
+}
+
+/* Header Section */
+#header {
+    background-color: #333;
+    /* color: white; */
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content in smaller screens */
+}
+
+/* Container for Logo and Navbar */
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.logo img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* Logo Styling */
+.logo h3 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #c8f513;
+    text-transform: uppercase;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 18px;
+    font-weight: 400;
+    color: #78f160;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #e8fc0c; /* Example Hover Color */
+}
+
+/* Active/Focus Link Styles for better accessibility */
+.navbar a:focus, .navbar a.active {
+    color: #e9c46a; /* Add a color when focused or active */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Add a bit of spacing between sections */
+.section {
+    margin-bottom: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header_1 {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;      /* Center text */
+    }
+
+    .navbar {
+        justify-content: center;  /* Center navbar links */
+        margin-top: 10px;          /* Add spacing above navbar */
+    }
+
+    .navbar a {
+        font-size: 16px;  /* Make font size smaller on mobile */
+    }
+
+    .logo h3 {
+        font-size: 24px;  /* Adjust logo size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        padding: 15px 0;  /* Less padding for smaller screens */
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+.whywe1{
+    width: auto;
+    display: block;
+    padding: 20px;
+    height: max-content;
+    background-color: #e9c46a;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* 
+.whywe{
+    
+
+} */
+
+
+.whywe li{
+    list-style: square;
+    list-style-position: inside;
+    padding: 5px;
+}
+
+.price{
+    display: block;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #af64ff;
+    border-radius: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price1{
+    text-align: center;
+    padding: 20px;
+}
+
+.price2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #af64ff;
+    border-radius: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+
+.pricecard{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: #e9c46a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pricecard h1{
+    background-color: #ece7f2;
+    border-radius: 10px  10px 0 0;
+    text-align: center;
+}
+
+
+
+
+/*-----------------------------------------------------THOUGHT---------------------------------------------------------*/
+
+.thought{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #eff18d;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    align-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thought h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.thought3{
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.thought1{
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f971ba;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.thought2{
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f971ba;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------FOOTER------------------------------------------------------*/
+
+.footer{
+    background-color: #333;
+    display: block;
+    color: #78f160;
+    /* text-align: center; */
+    /* flex-wrap: wrap; */
+}
+
+.footer1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.address1{
+    display: flex;
+    /* width: 500px; */
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+}
