@@ -1,7 +1,7 @@
 .aboutus1{
     display: flex;
     background-color: rgb(167, 249, 44);
-    height: fit-content;
+    height: auto;
     width: auto;
     margin: 10px;
     border-radius: 10px;
