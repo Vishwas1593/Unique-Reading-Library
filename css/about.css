@@ -1,7 +1,7 @@
 .aboutus1{
     display: flex;
     background-color: rgb(167, 249, 44);
-    height: auto;
+    height: fit-content;
     width: auto;
     margin: 10px;
     border-radius: 10px;
@@ -16,8 +16,9 @@
 .left{
     /* display: block; */
     width: 100%;
-    margin: 30px;
-    height: auto;
+    margin: 10px;
+    padding: 12px;
+    height: fit-content;
     background-color: rgb(199, 61, 253);
     text-align: center;
     align-content: center;
@@ -47,6 +48,11 @@
     /* display: flex; */
     align-items: center;
     justify-content: center;
+    height: auto;
+}
+
+.aboutus2 p{
+    text-align: justify;
 }
 
 
